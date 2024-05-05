@@ -8,7 +8,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-*.css
+./src/*.css
 dist
 dist-ssr
 *.local
