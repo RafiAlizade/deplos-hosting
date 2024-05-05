@@ -3,6 +3,7 @@ import HomeHero from './../../Components/HomeHero/HomeHero'
 import WhoUs from './../../Components/WhoUs/WhoUs'
 import SupportedService from './../../Components/SupportedService/SupportedService'
 import PopularPlans from './../../Components/PopularPlans/PopularPlans'
+import Preview from './../../Components/Preview/Preview'
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
   <WhoUs />
   <SupportedService />
   <PopularPlans />
+  <Preview />
 </main>
 </>
   )
