@@ -4,6 +4,7 @@ import WhoUs from './../../Components/WhoUs/WhoUs'
 import SupportedService from './../../Components/SupportedService/SupportedService'
 import PopularPlans from './../../Components/PopularPlans/PopularPlans'
 import Preview from './../../Components/Preview/Preview'
+import Reviews from './../../Components/Reviews/Reviews'
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
   <SupportedService />
   <PopularPlans />
   <Preview />
+  <Reviews />
 </main>
 </>
   )

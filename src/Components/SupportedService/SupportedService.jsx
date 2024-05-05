@@ -2,8 +2,15 @@ import './SupportedService.css'
 import minecraftLogo from './../../assets/minecraft.svg'
 import nodeLogo from './../../assets/nodejs.svg'
 import pythonLogo from './../../assets/python.svg'
+import { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function SupportedService() {
+
+    useEffect(() => {
+        AOS.init();
+      }, [])
 
     const serviceBase = [
         {
@@ -31,7 +38,11 @@ function SupportedService() {
   return (
     <section className="services">
         <div className="container_section">
-            <div className="services__inner">
+            <div className="services__inner"
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="1200">
                 <div className="services__left">
                     <div className="services__h2">Supported services</div>
                     <span className="services__description">We plan to add to this list in the future</span>

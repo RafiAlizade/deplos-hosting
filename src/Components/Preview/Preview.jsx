@@ -3,8 +3,15 @@ import controlImage from './../../assets/panel.png'
 import partnershipImage from './../../assets/partners.png'
 import communityImage from './../../assets/community.png'
 import { Link } from 'react-router-dom'
+import { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Preview() {
+
+    useEffect(() => {
+        AOS.init();
+      }, [])
 
   const previewBase = [
     {
@@ -33,7 +40,11 @@ function Preview() {
   return (
     <section className="preview">
         <div className="container_section">
-           <div className="preview__inner">
+           <div className="preview__inner"
+           data-aos="fade-left"
+           data-aos-offset="300"
+           data-aos-easing="ease-in-sine"
+           data-aos-duration="1200">
                     <div className="preview__container">
                         {previewBase.map(({ title, description, linkText, linkHref, image }, key) => (
                             <div className="preview__box" key={key}>

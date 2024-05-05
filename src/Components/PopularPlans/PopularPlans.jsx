@@ -1,8 +1,15 @@
 import './PopularPlans.css'
 import { Link } from 'react-router-dom'
 import { Check } from 'react-bootstrap-icons'
+import { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function PopularPlans() {
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
 
   const plansBase = [
     {
@@ -43,7 +50,11 @@ function PopularPlans() {
   return (
     <section className="popular-plans">
         <div className="container_section">
-           <div className="plans__inner">
+           <div className="plans__inner"
+           data-aos="fade-left"
+           data-aos-offset="300"
+           data-aos-easing="ease-in-sine"
+           data-aos-duration="1200">
             <div className="plans__top">
                 <h2 className="plans__h2">Popular plans</h2>
                 <Link to="/plans" className='plans__link'>Plans</Link>

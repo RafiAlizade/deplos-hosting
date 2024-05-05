@@ -1,6 +1,13 @@
 import './WhoUs.css'
+import { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Whous() {
+
+    useEffect(() => {
+        AOS.init();
+      }, [])
 
     const dataInfo = [
         {
@@ -23,7 +30,11 @@ function Whous() {
   return (
     <section className="aboutus">
         <div className="container_section">
-                <div className="aboutus__inner">
+                <div className="aboutus__inner"
+                data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="1200">
                     <div className="aboutus__top">
                         <h2 className="aboutus_h2">Why us?</h2>
                     </div>
