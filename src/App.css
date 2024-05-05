@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(./assets/fonts/Montserrat-VariableFont_wght.ttf) format('ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  /* font-family: ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; */
+  background-color: rgb(6, 6, 6);
+  font-family: Montserrat;
+}
+
+.container {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.container_section {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.animation {
+  animation: animationRightToLeft 2s forwards;
+}
+
+@keyframes animationRightToLeft {
+  0% {
+    transform: translateX(30px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

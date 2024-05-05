@@ -1,0 +1,141 @@
+.plans__inner {
+    width: 100%;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+}
+
+.plans__top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.plans__bottom {
+    width: 100%;
+}
+
+.plans__container {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    flex: 1 1 0;
+}
+
+.plans__bottom {
+    display: flex;
+}
+
+.access__name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .7rem;
+}
+
+.access__logo {
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.acces__description {
+    color: rgb(153, 153, 153);
+font-size: 1rem;
+font-weight: 500;
+line-height: 1.94rem;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.plans__box {
+    min-height: 28.75rem;
+    width: 31%;
+    border: 0.06rem solid rgb(43, 43, 43);
+    border-radius: 0.31rem;
+    padding: 1.88rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.plans__h2 {
+    color: rgb(224, 224, 224);
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.81rem;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.texts__top {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+}
+
+.texts__plan {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.1rem;
+}
+
+.plan__name {
+    color: rgb(224, 224, 224);
+font-size: 1.5rem;
+font-weight: 600;
+line-height: 1.94rem;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.plan__price {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 0.8rem;
+}
+
+.price__logo {
+    color: rgb(153, 153, 153);
+    margin-top: -0.3rem;
+}
+
+.price__number {
+    color: rgb(224, 224, 224);
+font-size: 2.13rem;
+font-weight: 600;
+line-height: 1.94rem;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.plans__link {
+    color: #999;
+    text-decoration: none;
+}
+
+.plans_buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.plans_buybutton {
+    text-decoration: none;
+    color: #999;
+font-size: 1.13rem;
+font-weight: 400;
+line-height: 1.94rem;
+letter-spacing: 0%;
+text-align: left;
+border: 0.06rem solid rgb(153, 153, 153);
+border-radius: 0.31rem;
+padding: 0.21rem 3rem;
+}
