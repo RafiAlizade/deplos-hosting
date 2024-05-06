@@ -41,3 +41,13 @@ body {
     opacity: 1;
   }
 }
+
+@keyframes rotateTop {
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translateY(180);
+  }
+}

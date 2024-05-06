@@ -3,7 +3,7 @@ import profilePhoto1 from './../../assets/profilephoto1.png'
 import profilePhoto2 from './../../assets/profilephoto2.png'
 import profilePhoto3 from './../../assets/profilephoto3.png'
 import { Link } from 'react-router-dom'
-import { useState, useEffect } from 'react'
+import { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

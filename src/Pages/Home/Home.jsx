@@ -5,6 +5,9 @@ import SupportedService from './../../Components/SupportedService/SupportedServi
 import PopularPlans from './../../Components/PopularPlans/PopularPlans'
 import Preview from './../../Components/Preview/Preview'
 import Reviews from './../../Components/Reviews/Reviews'
+import AskedQuestions from './../../Components/AskedQuestions/AskedQuestions'
+import HomeContact from './../../Components/HomeContact/HomeContact'
+import HomeGetStarted from './../../Components/HomeGetStarted/HomeGetStarted'
 
 function Home() {
   return (
@@ -18,6 +21,9 @@ function Home() {
   <PopularPlans />
   <Preview />
   <Reviews />
+  <AskedQuestions />
+  <HomeContact />
+  <HomeGetStarted />
 </main>
 </>
   )
